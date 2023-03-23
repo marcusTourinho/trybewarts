@@ -13,14 +13,31 @@
             <h1 id="trybewarts-header-title">Trybewarts</h1>
             <form action="" method="get" class="trybewarts-login">
                 <fieldset id="login-field">
-                    <label for="email">E-mail:</label>
                     <input type="email" name="email" id="email" placeholder="Email">
-                    <label for="pasword">Senha:</label>
                     <input type="password" name="password" id="password" placeholder="Senha">
                     <button type="submit" id="password-button">Entrar</button>
                 </fieldset>
             </form>
         </header>
+            <main id="main-container">
+                <form action="" method="get" id="evaluation-form">
+                    <h1 id="form-title">Formuláro de Avaliação</h1>
+                    <fieldset id="fieldset-1">
+                        <input type="text" name="name" id="input-name" placeholder="Nome">
+                        <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
+                        <input type="email" name="evaluation-email" id="input-email" placeholder="Email">
+                        <label for="house" id="house-label">Casa:</label>
+                        <select name="house" id="house">
+                            <option value="Gitnória" id="gitnoria-house" class="houses">Gitnória</option>
+                            <option value="Reactpuff" id="reactpuff-house" class="houses">Reactpuff</option>
+                            <option value="Corvinode" id="corvinode-house" class="houses">Corvinode</option>
+                            <option value="Pytherina" id="pytherina-house" class="houses">Pytherina</option>
+                        </select>
+                    </fieldset>
+                    <hr>
+                </form>
+                <img src="images/trybewarts-colored.svg" alt="Logo da trybewarts colorido" id="trybewarts-forms-logo">
+            </main>
         <script src="script.js"></script>
     </body>
 </html>
