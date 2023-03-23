@@ -1,4 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trybewarts-header-logo {
+  width: 4rem;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+#login-field {
+  border: none;
 }
