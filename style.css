@@ -65,7 +65,7 @@ body {
   color: var(--main-white-color);
 }
 
-#main-container , #evaluation-form {
+#main-container , #evaluation-form , #form-data {
   display: flex;
 }
 
@@ -74,7 +74,7 @@ body {
   padding-top: 100px;
 }
 
-#evaluation-form {
+#evaluation-form , #form-data {
   width: 675px;
   flex-flow: column wrap;
 }
