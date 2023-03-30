@@ -110,3 +110,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+#agreement-section {
+  display: flex;
+  flex-direction: column;
+}
