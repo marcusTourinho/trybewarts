@@ -105,3 +105,8 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#family-section , #subject-section {
+  display: flex;
+  flex-direction: column;
+}
